@@ -7,6 +7,14 @@ const Jobs = () => {
         <>
             <Helmet>
                 <title>Jobs</title>
+                <meta
+    name="description"
+    content="Learn about [NAVATA TECH], your trusted partner for web development, app development, graphic design, digital marketing, and SEO optimization services. Elevate your digital experiences for success with our innovative solutions."
+  />
+  <meta
+    name="keywords"
+    content="web development, app development, graphic design, digital marketing, SEO optimization, innovative solutions, digital experiences, [NAVATA TECH], technology company"
+  />
             </Helmet>
             <div className="text-center text-primary py-12 overflow-hidden">
                 <p className="text-4xl  font font-semibold inline-block border-b-2 border-sec">

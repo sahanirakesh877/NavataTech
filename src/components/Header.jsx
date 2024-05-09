@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className="text-primary bg-white body-font topheader py-0.5 sticky top-0 w-full  z-[99] shadow-xl  overflow-hidden ">
+            <nav className="text-primary z-[40] bg-white body-font topheader py-0.5 sticky top-0 w-full  shadow-xl  overflow-hidden ">
                 <div className="container mx-auto flex flex-wrap justify-between items-center">
                     {/* logo and hamburger menu */}
                     <div className="flex items-center">

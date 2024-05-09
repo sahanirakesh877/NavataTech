@@ -14,6 +14,14 @@ const Pricing = () => {
         <>
             <Helmet>
                 <title>Pricing</title>
+                <meta
+    name="description"
+    content="Learn about [NAVATA TECH], your trusted partner for web development, app development, graphic design, digital marketing, and SEO optimization services. Elevate your digital experiences for success with our innovative solutions."
+  />
+  <meta
+    name="keywords"
+    content="web development, app development, graphic design, digital marketing, SEO optimization, innovative solutions, digital experiences, [NAVATA TECH], technology company"
+  />
             </Helmet>
             <div className="container mx-auto bg-white dark:bg-gray-900 overflow-hidden">
                 <div className="md:py-[80] pt-10 mx-auto relative">

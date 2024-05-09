@@ -15,7 +15,7 @@ const Footer = () => {
             <h2 class="title-font font-medium text-sec tracking-widest text-sm mb-3">QUICK LINKS</h2>
             <nav class="list-none mb-10">
               <li>
-                <Link  to={'/home'} class="text-white">Home</Link>
+                <Link  to={'/'} class="text-white">Home</Link>
               </li>
               <li>
                 <Link to={'/services'} class="text-white">Services</Link>

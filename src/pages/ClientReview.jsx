@@ -91,17 +91,16 @@ const ClientReview = () => {
                       {a.para.substring(0, 250)}....
                     </p>
                     <a className="inline-flex items-center">
-                      <img
-                        alt="testimonial"
-                        src={a.img}
-                        className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-                      />
+                     
                       <span className="flex-grow flex flex-col pl-4">
                         <span className="title-font font-medium text-gray-900">
                           {a.name}
                         </span>
                         <span className="text-gray-500 text-sm">
                           {a.profession}
+                        </span>
+                        <span className="text-gray-500 text-sm">
+                          {a.web}
                         </span>
                       </span>
                     </a>

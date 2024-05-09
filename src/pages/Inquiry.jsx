@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 
 const Inquiry = () => {
   const [name, setName] = useState("");
@@ -12,13 +13,17 @@ const Inquiry = () => {
     const datadetail = { name, phone, email, subject, message };
     e.preventDefault();
     try {
-      const response=await axios.post("http://localhost:5000/api/contactdata", datadetail, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      console.log(response)
-      alert('Message sent successfully')
+      const response = await axios.post(
+        "http://localhost:5000/api/contactdata",
+        datadetail,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      console.log(response);
+      alert("Message sent successfully");
       // Reset form fields after successful submission
       setName("");
       setPhone("");
@@ -31,6 +36,17 @@ const Inquiry = () => {
   };
   return (
     <>
+      <Helmet>
+        <title>Inquiry</title>
+        <meta
+          name="description"
+          content="Learn about [NAVATA TECH], your trusted partner for web development, app development, graphic design, digital marketing, and SEO optimization services. Elevate your digital experiences for success with our innovative solutions."
+        />
+        <meta
+          name="keywords"
+          content="web development, app development, graphic design, digital marketing, SEO optimization, innovative solutions, digital experiences, [NAVATA TECH], technology company"
+        />
+      </Helmet>
       <div className="overflow-hidden">
         <div className="grid sm:grid-cols-2 items-center gap-16 py-24 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] ">
           <div>
@@ -48,7 +64,6 @@ const Inquiry = () => {
                     <i className="fas fa-message text-white"></i>
                   </div>
                   <a href="javascript:void(0)" className=" text-sm ml-3">
-                    <small className="block">Mail</small>
                     <strong>technavata@gmail.com</strong>
                   </a>
                 </li>
@@ -62,7 +77,6 @@ const Inquiry = () => {
                     <i className="fas fa-phone text-white"></i>
                   </div>
                   <a href="javascript:void(0)" className=" text-sm ml-3">
-                    <small className="block">Phone</small>
                     <strong>9704501220 & 9704501240</strong>
                   </a>
                 </li>

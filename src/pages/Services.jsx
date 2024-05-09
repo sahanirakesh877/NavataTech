@@ -9,6 +9,14 @@ const Services = () => {
         <>
             <Helmet>
                 <title>Our Services</title>
+                <meta
+    name="description"
+    content="Learn about [NAVATA TECH], your trusted partner for web development, app development, graphic design, digital marketing, and SEO optimization services. Elevate your digital experiences for success with our innovative solutions."
+  />
+  <meta
+    name="keywords"
+    content="web development, app development, graphic design, digital marketing, SEO optimization, innovative solutions, digital experiences, [NAVATA TECH], technology company"
+  />
             </Helmet>
             <div className="container md:py-[80]  pt-10 mx-auto relative overflow-hidden">
                 <h1 className="text-4xl text-center text-primary font-semibold pb-3">
@@ -27,7 +35,7 @@ const Services = () => {
                             <div key={a.id}>
                                 <Link to={`/services/${a.id}`}>
                                     <div className="group shadow-xl  p-4 text-center hover:bg-primary hover:text-white rounded duration-1000 bg-gray-50">
-                                        <i className={a.iconClass} />
+                                        <i className={a.iconClass}  />
                                         <h3 className="text-2xl py-2 text-sec whitespace-nowrap">
                                             {a.title}
                                         </h3>

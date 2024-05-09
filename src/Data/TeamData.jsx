@@ -1,62 +1,74 @@
+
+import Rakesh from '/rakesh.jpg'
+import Rashmi from '/Rashmi.jpeg'
+import Resha from '/Resha.jpeg'
+import Udit from '/uditTechM.jpg'
+import Shristi from '/shristii.jpg'
+import Sudhira from '/sudhira.jpeg'
+import Prakash from '/praksh.jpg'
 const TeamData = [
+
   {
     id: 1,
-    img:"https://readymadeui.com/team-1.webp",
-    name: "Dr.Roshan Shah",
-    role:" CEO/Chairman",
-    
+    img:Udit,
+    name: "Udit yadav",
+    role:"Tech Manager",
     
   },
   {
     id: 2,
-    img:"https://readymadeui.com/team-2.webp",
-    name: "Er. Madhav Chhinal",
-    role:"Managing Director",
+    img:Rakesh,
+    name: "Er. Rakesh Kr Sahani",
+    role:"FullStack developer",
+    
+    
+  },
+  {
+    id: 3,
+    img:Shristi,
+    name: "Shristi Bhattarai",
+    role:"Frontend Dev / Graphics Designer",
     
 
   },
   {
-    id: 3,
-    img:"https://readymadeui.com/team-3.webp",
-    name: "Udit Yadav",
-    role:"Technical Manager",
-    
-  },
-  {
     id: 4,
-    img:"https://readymadeui.com/team-4.webp",
-    name: "Prakash Lama",
-    role:"Frontend Developer / Reasearcher",
+    img:Prakash,
+    name: "Praksh Lama",
+    role:"MERN Stack Developer",
     
   },
   {
     id: 5,
-    img:"https://readymadeui.com/team-5.webp",
-    name: "Supreme Chinese",
-    role:"Backend Developer & DataBase",
-    
-  },
-  {
-    id: 6,
-    img:"https://readymadeui.com/team-6.webp",
-    name: "Er.Amrita Bhattarai",
-    role:"MernStack Developer",
+    img:Sudhira,
+    name: "Sudhira Yadav ",
+    role:"UI/UX Designer",
     
   },
   {
     id: 7,
-    img:"https://readymadeui.com/team-3.webp",
-    name: "Shristi Bhattarai",
-    role:"UI/UX Designer / Tech Support",
+    img:Resha,
+    name: "Resha Dulal",
+    role:"UI/UX Designer / Digital Marketing",
     
   },
   {
     id: 8,
-    img:'https://readymadeui.com/team-3.webp',
-    name: "Er.Rakesh Sahani",
-    role:" FullStack Developer",
+    img:Rashmi,
+    name: "Rashmi Shakya",
+    role:"Digital Marketing Officer",
     
   },
+
+ 
+  {
+    id: 6,
+    img:"https://readymadeui.com/team-6.webp",
+    name: "Aswin Pariyar",
+    role:"Video Editor",
+    
+  },
+ 
 ];
 
 export default TeamData;

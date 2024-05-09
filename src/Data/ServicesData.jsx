@@ -2,7 +2,7 @@ const serviceData = [
   {
     id: 1,
     iconClass:
-      "fas fa-laptop-code text-3xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
+      "fas fa-laptop-code text-4xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
     title: "Web Design",
     img: "https://img.freepik.com/free-vector/website-setup-concept-landing-page_23-2148299323.jpg?w=826&t=st=1705041999~exp=1705042599~hmac=f482b7024082b555bf8c7e416fd6296c55b7a077d49392b1936e23a054ac6722",
     description:
@@ -35,7 +35,7 @@ const serviceData = [
   {
     id: 2,
     iconClass:
-      "fas fa-bullhorn text-3xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
+      "fas fa-bullhorn text-4xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
     title: "Digital Marketing",
     img: "https://img.freepik.com/free-vector/flat-hand-drawn-people-starting-business-project_52683-56383.jpg?w=740&t=st=1705043446~exp=1705044046~hmac=c07247ac8160e3779495b46c3180466dfa006716db8948548ff91708173f11fb",
     description:
@@ -68,7 +68,7 @@ const serviceData = [
   {
     id: 3,
     iconClass:
-      "fas fa-mobile-alt text-3xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
+      "fas fa-mobile-alt text-4xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
     title: "App Development",
     img: "https://img.freepik.com/free-vector/user-interface-development-isometric-concept-with-young-woman-creating-custom-design-mobile-application-vector-illustration_1284-72341.jpg?w=740&t=st=1705043069~exp=1705043669~hmac=f1a8f7adf1fd139905168928f55e9388b105dd23f64bcba99fd4e5746b162327",
     description:
@@ -101,7 +101,7 @@ const serviceData = [
   {
     id: 4,
     iconClass:
-      "fas fa-code text-3xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
+      "fas fa-code text-4xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
     title: "Web Development",
     img: "https://img.freepik.com/free-vector/mobile-apps-concept-landing-page_52683-22745.jpg?w=826&t=st=1705043253~exp=1705043853~hmac=65550a641684e116e4f9cf006a62d6771d57df9ff0433c4d8c8809c6f2a75900",
     description:
@@ -134,7 +134,7 @@ const serviceData = [
   {
     id: 5,
     iconClass:
-      "fas fa-paint-brush text-3xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
+      "fas fa-paint-brush text-4xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
     title: "Graphics Design",
     img: "https://img.freepik.com/free-vector/design-tools-concept-illustration_114360-1227.jpg?w=740&t=st=1705043303~exp=1705043903~hmac=d586ba7d9d3ff58e7334c66fb23ef021031e611cc5c1ccaaed484d9fb1fbe041",
     description:
@@ -168,7 +168,7 @@ const serviceData = [
   {
     id: 6,
     iconClass:
-      "fas fa-cogs text-3xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
+      "fas fa-cogs text-4xl  group-hover:text-sec text-primary duration-1000 animate-bounce",
     title: "Software Development",
     img: "https://img.freepik.com/premium-vector/devops-engineer-flat-illustration-concept-white-background_701961-40.jpg?w=826",
     description:
