@@ -16,14 +16,14 @@ body {
 }
 :root {
     --primary: #a01f62;
-    --sec: #d39103;
+    --sec: #fcad03;
 }
 
 /* Home Section Start */
 .home {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), url("/bg.jpg");
+    background-image:  url("/techbg.avif");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -48,8 +48,8 @@ body {
 }
 .changecontent::after {
     content: " ";
-    color: var(--primary);
-    text-shadow: 0px 1px 1px rgb(249, 249, 246);
+    color: var(--sec);
+    text-shadow: 0px 2px 2px rgb(249, 249, 246);
     animation: changetext 10s infinite linear;
 }
 @keyframes changetext {

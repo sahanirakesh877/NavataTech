@@ -4,17 +4,17 @@ import { Helmet } from "react-helmet";
 const About = () => {
   return (
     <>
-     <Helmet>
-  <title>About Us</title>
-  <meta
-    name="description"
-    content="Learn about [NAVATA TECH], your trusted partner for web development, app development, graphic design, digital marketing, and SEO optimization services. Elevate your digital experiences for success with our innovative solutions."
-  />
-  <meta
-    name="keywords"
-    content="web development, app development, graphic design, digital marketing, SEO optimization, innovative solutions, digital experiences, [NAVATA TECH], technology company"
-  />
-</Helmet>
+      <Helmet>
+        <title>About Us</title>
+        <meta
+          name="description"
+          content="Learn about [NAVATA TECH], your trusted partner for web development, app development, graphic design, digital marketing, and SEO optimization services. Elevate your digital experiences for success with our innovative solutions."
+        />
+        <meta
+          name="keywords"
+          content="web development, app development, graphic design, digital marketing, SEO optimization, innovative solutions, digital experiences, [NAVATA TECH], technology company"
+        />
+      </Helmet>
 
       <div className="container  pt-10 mx-auto relative  overflow-hidden">
         <h1 className="text-4xl text-center text-primary font-semibold pb-3">
@@ -31,7 +31,7 @@ const About = () => {
             <div>
               <img
                 src="https://img.freepik.com/free-vector/static-asset-illustration-concept_114360-885.jpg?w=740&t=st=1705054097~exp=1705054697~hmac=d0fc1a16c8b48545d8de0943ac9589f0c5d8115cd54d65f2c6decf833dfe77a2"
-                alt="Office Workspace"
+                alt="about image loading"
                 className="rounded-lg  w-full h-auto"
               />
             </div>

@@ -42,7 +42,7 @@ const Teams = () => {
                   <div key={a.id}>
                     <img
                       src={a.img}
-                      className="w-36 border  h-36 rounded-full object-contain inline-block"
+                      className="w-36 border  h-36 rounded-full object-contain bg-red-900 inline-block"
                     />
                     <div className="py-4">
                       <h4 className="text-base font-extrabold">{a.name}</h4>

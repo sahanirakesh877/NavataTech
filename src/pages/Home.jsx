@@ -27,7 +27,7 @@ const Home = () => {
                         designed for success.
                     </p>
                     <Link to="/inquiry">
-                        <button className="rounded-full bg-[#d39103] btn py-2 px-5 text-white hover:bg-primary ">
+                        <button className="rounded-full bg-primary btn py-2 px-10 text-white hover:bg-yellow-600">
                             Get Inquiry
                         </button>
                     </Link>

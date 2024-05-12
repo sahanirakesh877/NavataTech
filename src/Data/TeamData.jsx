@@ -1,25 +1,26 @@
 
-import Rakesh from '/rakesh.jpg'
+import Rakesh from '/alex.jpg'
 import Rashmi from '/Rashmi.jpeg'
 import Resha from '/Resha.jpeg'
-import Udit from '/uditTechM.jpg'
-import Shristi from '/shristii.jpg'
+import Udit from '/udit.jpg'
+import Shristi from '/sisty.jpg'
 import Sudhira from '/sudhira.jpeg'
 import Prakash from '/praksh.jpg'
+import Aswin from '/aswin.jpeg'
 const TeamData = [
 
   {
     id: 1,
     img:Udit,
     name: "Udit yadav",
-    role:"Tech Manager",
+    role:"Tech Manager / Quality Assurance",
     
   },
   {
     id: 2,
     img:Rakesh,
     name: "Er. Rakesh Kr Sahani",
-    role:"FullStack developer",
+    role:"Backend Developer / DevOps",
     
     
   },
@@ -34,7 +35,7 @@ const TeamData = [
   {
     id: 4,
     img:Prakash,
-    name: "Praksh Lama",
+    name: "Prakash Lama",
     role:"MERN Stack Developer",
     
   },
@@ -63,9 +64,9 @@ const TeamData = [
  
   {
     id: 6,
-    img:"https://readymadeui.com/team-6.webp",
-    name: "Aswin Pariyar",
-    role:"Video Editor",
+    img:Aswin,
+    name: "Ashwin Pariyar",
+    role:"Video Editor / Graphic Designer",
     
   },
  

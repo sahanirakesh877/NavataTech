@@ -16,11 +16,14 @@ import Jobs from "./pages/Jobs";
 import Pricing from "./pages/Pricing";
 import { useState } from "react";
 
+import offer from "/offer.png"
+
 function App() {
   const [popup, setPopup] = useState(true);
 
   return (
     <>
+    
       <TopSection />
       <Header />
       <Routes>
@@ -50,7 +53,7 @@ function App() {
         <>
           <div className="fixed top-0  w-[100vw] flex justify-center items-center  z-[200] h-[100vh]  border border-black bg-[#000000A7]">
             <div className="relative">
-              <img src="https://images.template.net/wp-content/uploads/2021/07/Notice-to-Terminate-Tenancy-At-Will-by-Tenant-Template.jpeg" alt="" className="h-[70vh] w-100%"/>
+              <img src={offer} alt="" className="h-[70vh] w-100%"/>
               <button
                 className="absolute top-0 right-0  w-16  h-16 translate-x-1/2 -translate-y-1/2 rounded-full text-white bg-red-700"
                 onClick={() => setPopup(false)}
