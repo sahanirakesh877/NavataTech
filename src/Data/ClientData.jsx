@@ -1,9 +1,9 @@
 const clientData = [
     {
    
-      name: "Dr Roshan Shah",
+      name: "Bikash Lama",
       para: "NAVATA TECH is a game-changer! The design and functionality of the website are top-notch. I appreciate the variety of tech services covered, from cutting-edge innovations to in-depth tutorials. Dr. Roshan Shah's expertise shines through, providing a reliable source for staying updated in the ever-evolving tech landscape. Keep up the excellent work!",
-      profession: "pediatrician and surgeon",
+      profession: "Human Resource Manager",
     },
 
     {

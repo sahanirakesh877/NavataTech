@@ -12,7 +12,7 @@ const TeamData = [
   {
     id: 1,
     img:Udit,
-    name: "Udit yadav",
+    name: "Udit Yadav",
     role:"Tech Manager / Quality Assurance",
     
   },
